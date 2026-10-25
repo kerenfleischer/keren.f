@@ -15,8 +15,7 @@ body{margin:0;background:#f4cfd2}
 a{color:#184597}a:hover{color:#123980}
 .zine *{box-sizing:border-box}
 .ph{position:relative;container-type:inline-size}
-.ph img{display:block;width:100%;height:auto;mix-blend-mode:multiply}
-.ph::after{content:"";position:absolute;inset:0;background:#184597;mix-blend-mode:lighten;pointer-events:none}
+.ph img{display:block;width:100%;height:auto}
 .fr{position:absolute;display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Karantina',sans-serif;font-weight:700;line-height:.86;color:#184597;padding:0 2cqw}
 .lbl{display:inline-block;background:#184597;color:#f2f0e9;font-family:'IBM Plex Mono','IBM Plex Sans Hebrew',monospace;font-weight:600;font-size:14px;letter-spacing:.04em;padding:6px 12px}
 .row{display:flex;flex-wrap:wrap;gap:clamp(28px,5vw,64px);align-items:center}
@@ -41,7 +40,7 @@ img{max-width:100%}
 
 <section class="row" style="padding: clamp(40px, 7vw, 96px) 0 clamp(48px, 8vw, 110px)">
 <div class="ph" style="flex: 1 1 360px; max-width: 460px">
-<img src="images/book.jpg" alt="דף משורטט עם משיכות עיפרון ופחם, מונח על עמוד מספר ישן"></div>
+<img src="images/portrait.jpg" alt="דיוקן של קרן, מחייכת, בחולצת פסים"></div>
 <div style="flex: 1 1 400px; min-width: 0">
 <span class="lbl" style="transform: rotate(-1.5deg)">01 / נעים מאוד</span>
 <p style="margin: 22px 0 0; max-width: 28em">אני קרן, מעצבת מוצר בכירה ובוגרת בצלאל. אחרי שנים של עבודה על מוצרים דיגיטליים, אני רוצה לחזור לרגע שבו עיצוב מתחיל: <span style="background: linear-gradient(transparent 45%, #ffffff 45%, #ffffff 88%, transparent 88%); padding: 0 4px; white-space: nowrap">דף ריק</span>, מישהו שעוד מחפש את השפה שלו, ותיק עבודות שעוד אין לו צורה. שם אני רוצה להיות, כמלווה.</p>
@@ -60,7 +59,7 @@ img{max-width:100%}
 </div>
 <div style="position: relative; padding-bottom: 14px">
 <dt style="display: inline-block; font-family: 'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace; font-weight: 600; font-size: 13px; letter-spacing: .04em; border: 1.5px solid #184597; border-radius: 999px; padding: 1px 12px; margin-bottom: 10px">איפה</dt>
-<dd style="margin: 0; font-family: 'Karantina', sans-serif; font-weight: 700; font-size: clamp(30px, 3.2vw, 40px); line-height: .95"><a href="https://imagen-ai.com/" target="_blank" rel="noopener" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; text-decoration: none"><span>Imagen AI</span><span aria-hidden="true">↗</span></a></dd>
+<dd style="margin: 0; font-family: 'Karantina', sans-serif; font-weight: 700; font-size: clamp(30px, 3.2vw, 40px); line-height: .95"><a href="https://imagen-ai.com/" target="_blank" rel="noopener" style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; text-decoration: none"><span>Imagen AI</span><span aria-hidden="true"><svg aria-hidden="true" viewBox="0 0 24 24" width="0.72em" height="0.72em" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block; vertical-align: baseline"><path d="M7 17L17 7M9 7h8v8"></path></svg></span></a></dd>
 <svg aria-hidden="true" viewBox="0 0 1000 10" preserveAspectRatio="none" style="position: absolute; bottom: -4px; left: 0; width: 100%; height: 10px; overflow: visible"><path d="M2 6 C 140 3, 360 8, 560 4 S 820 7, 998 4" fill="none" stroke="#184597" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path></svg>
 </div>
 <div style="position: relative; padding-bottom: 14px">
@@ -79,10 +78,6 @@ img{max-width:100%}
 <svg aria-hidden="true" viewBox="0 0 1000 10" preserveAspectRatio="none" style="position: absolute; bottom: -4px; left: 0; width: 100%; height: 10px; overflow: visible"><path d="M2 5 C 90 8, 240 3, 400 6 S 640 3, 780 7 S 930 4, 998 5" fill="none" stroke="#184597" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path></svg>
 </div>
 </dl>
-</div>
-<div style="flex: 0 1 300px; display: flex; flex-direction: column; align-items: center; gap: 14px">
-<div class="ph" style="width: 100%; max-width: 300px">
-<img src="images/passport.jpg" alt="רצועת תמונות פספורט מקומטת של קרן מתא צילום" style="filter: grayscale(1) brightness(1.15)"></div>
 </div>
 </section>
 
@@ -110,7 +105,7 @@ img{max-width:100%}
 
 <section class="row" style="padding-bottom: clamp(56px, 9vw, 120px)">
 <div class="ph" style="flex: 1 1 460px; max-width: 620px">
-<img src="images/collage.jpg" alt="קולאז׳ של קרן: דמויות גזורות על רקע כתמים, ודף נייר מקופל בצד" style="filter: grayscale(1) brightness(1.15)">
+<img src="images/collage.jpg" alt="קולאז׳ של קרן: דמויות גזורות על רקע כתמים, ודף נייר מקופל בצד">
 <div class="fr" style="left: 57%; top: 30%; width: 35%; height: 48%; font-size: 5.6cqw; white-space: pre-line; line-height: 1">מעצבת
 מוצר בכירה<br></div></div>
 <div style="flex: 1 1 360px; min-width: 0">
@@ -134,7 +129,7 @@ img{max-width:100%}
 </ol>
 </div>
 <div class="ph" style="flex: 1 1 320px; max-width: 420px">
-<img src="images/arrow.jpg" alt="שלט חץ מואר על רקע עצים ושמי ערב" style="filter: grayscale(1) brightness(1.15)"></div>
+<img src="images/arrow.jpg" alt="שלט חץ מואר על רקע עצים ושמי ערב"></div>
 </div>
 </section>
 
@@ -156,7 +151,7 @@ img{max-width:100%}
 <div style="position: relative; flex: 1 1 200px; min-width: 0; padding-top: 14px">
 <svg aria-hidden="true" viewBox="0 0 1000 10" preserveAspectRatio="none" style="position: absolute; top: -5px; left: 0; width: 100%; height: 10px; overflow: visible"><path d="M2 7 C 140 3, 360 8, 560 4 S 820 7, 997 4" fill="none" stroke="#184597" stroke-width="2.6" stroke-linecap="round" vector-effect="non-scaling-stroke"></path></svg>
 <div style="font-family: 'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace; font-weight: 600; font-size: 13px; letter-spacing: .04em; margin-bottom: 10px">לינקדאין</div>
-<a class="cl" href="https://www.linkedin.com/in/keren-fleischer/" target="_blank" rel="noopener" style="font-family: 'Karantina', sans-serif; font-weight: 700; font-size: clamp(34px, 4.2vw, 54px); line-height: 1">keren-fleischer ↗</a>
+<a class="cl" href="https://www.linkedin.com/in/keren-fleischer/" target="_blank" rel="noopener" style="font-family: 'Karantina', sans-serif; font-weight: 700; font-size: clamp(34px, 4.2vw, 54px); line-height: 1">keren-fleischer <svg aria-hidden="true" viewBox="0 0 24 24" width="0.72em" height="0.72em" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block; vertical-align: baseline"><path d="M7 17L17 7M9 7h8v8"></path></svg></a>
 </div>
 </div>
 </section>
